@@ -1,1 +1,55 @@
 @import "../../styles/custom.css";
+
+.navbarBrand {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ffff !important;
+}
+.navbar {
+  background-color: #171718;
+}
+.navbarCollapse {
+  justify-content: center;
+}
+.navLink {
+  color: #ffff !important;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  float: left;
+  position: relative;
+}
+.navLinkActive {
+  color: #ffff !important;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  float: left;
+  position: relative;
+}
+.navLinkActive:after {
+  border-bottom: 3px solid #f9b53a;
+  bottom: 0px;
+  content: " ";
+  left: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+}
+
+.navButton {
+  background-color: #f9b53a;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  border-style: none;
+  font-family: "Poppins", sans-serif;
+}
+.navButton:hover {
+  background-color: #ffd079;
+}
+.navButton:focus {
+  background-color: #f9b53a;
+}

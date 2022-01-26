@@ -1,0 +1,51 @@
+@import "../../styles/custom.css";
+
+.container {
+  background-color: #171718;
+  min-height: 350px;
+  width: 100%;
+}
+.contentWrapper {
+  margin-top: 75px;
+}
+
+.contentTitle {
+  text-align: center;
+  color: #ffffff;
+  font-size: 54px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 10px #f9b53a;
+  letter-spacing: 15px;
+}
+
+.contentSubTitle {
+  text-align: center;
+  margin-top: 50px;
+  color: #ffffff;
+  font-size: 34px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #f9b53a;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 575.98px) {
+  .contentTitle {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 4px 10px #f9b53a;
+  }
+  .contentSubTitle {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 4px 10px #f9b53a;
+  }
+}

@@ -1,4 +1,4 @@
-import "../styles/custom.css";
+import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css";
 
