@@ -1,0 +1,51 @@
+@import "../../styles/custom.css";
+
+.footerBg {
+  height: 230px;
+  background-color: #131414;
+  padding-top: 64px;
+}
+
+.name {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.routeActive {
+  color: #f9b53a;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  text-decoration: none;
+}
+.routeActive:hover {
+  color: #f9b53a;
+}
+.route {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  text-decoration: none;
+}
+.route:hover {
+  color: #ffffff;
+}
+
+.socialIcon {
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.copyright {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+}
