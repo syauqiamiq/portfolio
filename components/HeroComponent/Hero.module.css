@@ -44,6 +44,7 @@
   border-style: none;
   border-radius: 5px;
   background-color: #f9b53a;
+  margin-right: -120px;
 }
 .projectButton:hover {
   background-color: #ffd079;
@@ -57,13 +58,14 @@
   border-color: #fafafa;
   border-radius: 5px;
   background-color: transparent;
+  margin-left: -120px;
 }
 .cvButton:hover {
   background-color: #fafafa;
   color: black;
   border-color: black;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 1024.98px) {
   .projectButton {
     color: #fafafa;
     width: 125px;
@@ -72,10 +74,10 @@
     border-style: none;
     border-radius: 5px;
     background-color: #f9b53a;
+    margin-right: 0px;
   }
   .cvButton {
     color: #fafafa;
-    margin-top: 20px;
     height: 30px;
     font-size: 10px;
     font-family: "DM Sans", sans-serif;
@@ -83,6 +85,7 @@
     border-color: #fafafa;
     border-radius: 5px;
     background-color: transparent;
+    margin-left: 0px;
   }
   .title {
     color: #fafafa;

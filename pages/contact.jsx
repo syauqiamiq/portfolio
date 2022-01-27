@@ -3,11 +3,11 @@ import Layout from "../components/Layout/Layout";
 
 const contact = () => {
   return (
-    <div>
+    <>
       <Layout>
-        <h1>CONTACT PAGE</h1>
+        <h1 className="text-white">Contact Page Dalam Pengembangan</h1>
       </Layout>
-    </div>
+    </>
   );
 };
 

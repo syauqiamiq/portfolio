@@ -5,7 +5,7 @@ const projects = () => {
   return (
     <>
       <Layout>
-        <h1>PROJECTS PAGE</h1>
+        <h1 className="text-white">Projects Page Dalam Pengembangan</h1>
       </Layout>
     </>
   );

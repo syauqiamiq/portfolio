@@ -1,0 +1,77 @@
+@import "../../styles/custom.css";
+
+.container {
+  background-color: #171718;
+  margin-top: -5px;
+  min-height: 750px;
+}
+
+.card {
+  margin-top: 150px;
+  background-color: #1f1f21;
+  width: 960px;
+  padding: 30px;
+  box-shadow: 1px 0px 200px #f9b63a9f;
+  border-width: 1px;
+  border-color: #3d3d3d;
+  border-radius: 8px;
+}
+
+.avatarWrapper {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.avatar {
+  border-radius: 8px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #f9b53a;
+}
+
+.content {
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #fafafa;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.actionButton {
+  color: #fafafa;
+  height: 30px;
+  font-family: "DM Sans", sans-serif;
+  border-width: 1px;
+  border-color: #fafafa;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.actionButton:hover {
+  background-color: #fafafa;
+  color: black;
+  border-color: black;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+@media (max-width: 767.98px) {
+  .title {
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: #f9b53a;
+    text-align: center;
+  }
+}

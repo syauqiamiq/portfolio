@@ -18,17 +18,16 @@ const NavbarComponent = () => {
                 <a className={`${router.asPath === "/" ? styles.navLinkActive : styles.navLink} nav-link`}>Home</a>
               </Link>
               <Link href="/about">
-                <a className={`${router.asPath === "/about" ? styles.navLinkActive : styles.navLink} nav-link`}>About Me</a>
+                <a className={`${router.asPath === "/about" ? styles.navLinkActive : styles.navLink} nav-link`}>Tentang Saya</a>
               </Link>
               <Link href="/projects">
-                <a className={`${router.asPath === "/projects" ? styles.navLinkActive : styles.navLink} nav-link`}> Projects</a>
+                <a className={`${router.asPath === "/projects" ? styles.navLinkActive : styles.navLink} nav-link`}>Projects</a>
               </Link>
             </Nav>
           </Navbar.Collapse>
-
           <Link href="/contact">
             <a className="nav-link">
-              <Button className={styles.navButton}>Contact Me</Button>
+              <Button className={styles.navButton}>Hubungi Saya</Button>
             </a>
           </Link>
         </Container>
