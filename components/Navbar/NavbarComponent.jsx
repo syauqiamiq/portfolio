@@ -25,7 +25,7 @@ const NavbarComponent = () => {
               </Link>
             </Nav>
           </Navbar.Collapse>
-          <Link href="/contact">
+          <Link href="https://wa.wizard.id/32748f">
             <a className="nav-link">
               <Button className={styles.navButton}>Hubungi Saya</Button>
             </a>

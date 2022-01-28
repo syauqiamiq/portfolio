@@ -48,25 +48,25 @@ const FooterComponent = () => {
             <Col xs={12} sm={6} md={6} lg={3} xl={3}>
               <div className={styles.contentWrapper}>
                 <h3 className={styles.title}>Social Media</h3>
-                <Link href="/">
+                <Link href="https://www.facebook.com/syauqi.amiq.58/">
                   <a className={styles.iconWrapper}>
                     {" "}
                     <FontAwesomeIcon icon={faFacebook} className={styles.socialIcon} />
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="https://www.instagram.com/syauqi_amiq/">
                   <a className={styles.iconWrapper}>
                     {" "}
                     <FontAwesomeIcon icon={faInstagram} className={styles.socialIcon} />
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="https://www.linkedin.com/in/muhammad-syauqi-amiq-amrullah-10128520b/">
                   <a className={styles.iconWrapper}>
                     {" "}
                     <FontAwesomeIcon icon={faLinkedinIn} className={styles.socialIcon} />
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="https://github.com/syauqiamiq">
                   <a className={styles.iconWrapper}>
                     {" "}
                     <FontAwesomeIcon icon={faGithub} className={styles.socialIcon} />
