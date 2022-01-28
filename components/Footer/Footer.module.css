@@ -4,6 +4,20 @@
   height: 230px;
   background-color: #131414;
   padding-top: 64px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footerBg {
+    height: 230px;
+    background-color: #131414;
+    padding-top: 64px;
+    text-align: start;
+  }
+}
+
+.contentWrapper {
+  margin-bottom: 30px;
 }
 
 .name {
@@ -24,6 +38,15 @@
 .routeActive:hover {
   color: #f9b53a;
 }
+
+.title {
+  color: #f9b53a;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
+
 .route {
   color: #ffffff;
   font-size: 16px;
@@ -31,7 +54,9 @@
   font-weight: 500;
   letter-spacing: 0.15px;
   text-decoration: none;
+  display: block;
 }
+
 .route:hover {
   color: #ffffff;
 }
@@ -41,6 +66,10 @@
   width: 20px;
   height: 20px;
   margin-right: 10px;
+}
+.iconWrapper {
+  text-decoration: none;
+  display: inline;
 }
 
 .copyright {
