@@ -1,0 +1,49 @@
+@import "../../styles//custom.css";
+
+.sectionTitle {
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #f9b53a;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 125px;
+  height: 150px;
+  margin-bottom: 20px;
+  background-color: #1f1f21;
+  border-radius: 10px;
+}
+
+.sectionTitle {
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #f9b53a;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cardIcon {
+  margin-bottom: 10px;
+}
+.cardTitle {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+}
+
+.wrapper {
+  text-align: center;
+}

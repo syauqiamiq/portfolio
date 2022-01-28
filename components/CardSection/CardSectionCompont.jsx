@@ -11,7 +11,7 @@ const CardSectionCompont = () => {
     <>
       <Container>
         <h1 className={styles.sectionTitle}>Kemampuan Saya</h1>
-        <Row className={styles.wrapper}>
+        <Row>
           <Col className={styles.cardWrapper}>
             <Card className={styles.card}>
               <Card.Body>
