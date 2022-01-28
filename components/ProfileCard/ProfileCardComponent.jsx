@@ -35,13 +35,13 @@ const ProfileCardComponent = () => {
                       </p>
                       <p className={styles.content}>
                         Sebagai seorang Web Developer, saya percaya bahwa design dan performa website yang baik akan memuaskan user experience klien kita, sehingga diperlukan teknologi yang tepat untuk mengimplementasikannya. Dalam proses
-                        pengembangan, saya lebih sering menggunakan menggunakan teknologi seperti HTML/CSS/JS, React, Node.js, Laravel, dan Golang.
+                        pengembangan, saya lebih sering menggunakan menggunakan teknologi seperti HTML/CSS/JS, React, Node.js, dan Laravel.
                       </p>
                     </Col>
                   </Row>
                   <Row className="mt-1 text-start">
                     <Col>
-                      <Link href="/projects">
+                      <Link href="/about">
                         <a>
                           <button className={styles.actionButton}>
                             {" "}
