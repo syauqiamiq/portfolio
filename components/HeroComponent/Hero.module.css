@@ -78,6 +78,7 @@
   }
   .cvButton {
     color: #fafafa;
+    width: 125px;
     height: 30px;
     font-size: 10px;
     font-family: "DM Sans", sans-serif;
